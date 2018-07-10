@@ -725,7 +725,7 @@
                             },
                             "-",
                             {
-                                "Ref": "AppName"
+                                "Ref": "AWS::StackName"
                             }
                         ]
                     ]
@@ -1546,7 +1546,7 @@
                                             },
                                             "-",
                                             {
-                                                "Ref": "AppName"
+                                                "Ref": "AWS::StackName"
                                             }
                                         ]
                                     ]
@@ -1802,7 +1802,7 @@
                                 },
                                 "-",
                                 {
-                                    "Ref": "AppName"
+                                    "Ref": "AWS::StackName"
                                 }
                             ]
                         ]
