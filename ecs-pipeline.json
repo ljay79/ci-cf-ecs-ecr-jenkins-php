@@ -850,39 +850,14 @@
                         "commands": {
                             "01_add_instance_to_cluster": {
                                 "command": {
-                                    "Fn::Join": [
-                                        "",
-                                        [
-                                            "#!/bin/bash\n",
-                                            "echo ECS_CLUSTER=",
-                                            {
-                                                "Ref": "EcsCluster"
-                                            },
-                                            " >> /etc/ecs/ecs.config"
-                                        ]
-                                    ]
+                                    "Fn::Sub": "echo ECS_CLUSTER=${EcsCluster} >> /etc/ecs/ecs.config"
                                 }
                             }
                         },
                         "files": {
                             "/etc/cfn/cfn-hup.conf": {
                                 "content": {
-                                    "Fn::Join": [
-                                        "",
-                                        [
-                                            "[main]\n",
-                                            "stack=",
-                                            {
-                                                "Ref": "AWS::StackId"
-                                            },
-                                            "\n",
-                                            "region=",
-                                            {
-                                                "Ref": "AWS::Region"
-                                            },
-                                            "\n"
-                                        ]
-                                    ]
+                                    "Fn::Sub": "[main]\nstack=${AWS::StackId}\nregion=${AWS::Region}\n"
                                 },
                                 "mode": "000400",
                                 "owner": "root",
