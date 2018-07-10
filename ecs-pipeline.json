@@ -1227,8 +1227,8 @@
                     "config": {
                         "packages": {
                             "yum": {
-                                "java-1.7.0-openjdk": [],
-                                "java-1.7.0-openjdk-devel": []
+                                "java-1.8.0-openjdk": [],
+                                "java-1.8.0-openjdk-devel": []
                             }
                         },
                         "files": {
