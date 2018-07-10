@@ -2,12 +2,16 @@
 
 ## Based on ...
 [Create and Connect to an AWS CodeCommit Repository](https://stelligent.com/2016/05/02/create-and-connect-to-an-aws-codecommit-repository/)
+
 [Automating ECS: Provisioning in CloudFormation (Part 1)](https://stelligent.com/2016/05/26/automating-ecs-provisioning-in-cloudformation-part-1/)
+
 [Automating ECS: Orchestrating in CodePipeline and CloudFormation (Part 2)](https://stelligent.com/2016/06/10/automate-amazon-ec2-container-service-provisioning-and-orchestration-using-cloudformation-and-aws-codepipeline/)
+
 (https://github.com/stelligent/cloudformation_templates/tree/master/labs/ecs)
 
 
 Updated to fit 2018!
+
 Tried to simplify the storage of all required artifacts and scripts to minimum of locations.
 
 # Referencing:
