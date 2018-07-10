@@ -1233,15 +1233,15 @@
                         },
                         "files": {
                             "/tmp/config.xml": {
-                                "source": "https://s3.amazonaws.com/aws-codedeploy-samples-us-east-1/templates/latest/Jenkins_Helper_Scripts/config.xml",
+                                "source": "https://raw.githubusercontent.com/ljay79/ci-cf-ecs-ecr-jenkins-php/master/Jenkins_Helper_Scripts/config.xml",
                                 "mode": "644"
                             },
                             "/tmp/hudson.tasks.Maven.xml": {
-                                "source": "https://s3.amazonaws.com/aws-codedeploy-samples-us-east-1/templates/latest/Jenkins_Helper_Scripts/hudson.tasks.Maven.xml",
+                                "source": "https://raw.githubusercontent.com/ljay79/ci-cf-ecs-ecr-jenkins-php/master/Jenkins_Helper_Scripts/hudson.tasks.Maven.xml",
                                 "mode": "644"
                             },
                             "/tmp/jenkins.mvn.GlobalMavenConfig.xml": {
-                                "source": "https://s3.amazonaws.com/aws-codedeploy-samples-us-east-1/templates/latest/Jenkins_Helper_Scripts/jenkins.mvn.GlobalMavenConfig.xml",
+                                "source": "https://raw.githubusercontent.com/ljay79/ci-cf-ecs-ecr-jenkins-php/master/Jenkins_Helper_Scripts/jenkins.mvn.GlobalMavenConfig.xml",
                                 "mode": "644"
                             }
                         }
