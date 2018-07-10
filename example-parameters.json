@@ -17,7 +17,7 @@
   },
   {
     "ParameterKey":"ECSCFNURL",
-    "ParameterValue":"NOURL"
+    "ParameterValue":"https://s3.eu-central-1.amazonaws.com/ljay79/github/ci-cf-ecs-ecr-jenkins-php/ecs-pipeline.json"
   },
   {
     "ParameterKey":"AppName",
