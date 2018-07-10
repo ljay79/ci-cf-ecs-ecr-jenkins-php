@@ -13,6 +13,10 @@
 Updated to fit 2018!
 
 Tried to simplify the storage of all required artifacts and scripts to minimum of locations.
+During the tutorial there is mentioned a file `configure-ecs.sh` which i add to the sample-app repo. As i struggled to figure our where to find and where to put it.
+That same file also now has updated logic.
+
+The entire sample project is now capable to be deployed to most AWS regions dynamically except for the hard coded setting in [.env](https://github.com/ljay79/ci-cf-ecs-ecr-jenkins-php/blob/master/.env).
 
 # Referencing:
 - [PHP Simple Demo App](https://github.com/ljay79/ecs-demo-php-simple-app)
