@@ -1376,6 +1376,11 @@
                                     "Ref": "ECSRepoName"
                                 },
                                 "/g\" /tmp/config-template.xml\n",
+								"/bin/sed -i \"s#MY_URL#",
+                                {
+                                    "Ref": "ECSCFNURL"
+                                },
+                                "#g\" /tmp/config-template.xml\n",
                                 "/bin/sed -i \"s/REGION/",
                                 {
                                     "Ref": "AWS::Region"
