@@ -267,28 +267,37 @@
         },
         "AWSRegionToAMI": {
             "us-east-1": {
-                "AMIID": "ami-2b3b6041"
+                "AMIID": "ami-5253c32d"
             },
-            "us-west-2": {
-                "AMIID": "ami-ac6872cd"
-            },
-            "eu-west-1": {
-                "AMIID": "ami-03238b70"
-            },
-            "ap-northeast-1": {
-                "AMIID": "ami-fb2f1295"
-            },
-            "ap-southeast-2": {
-                "AMIID": "ami-43547120"
+            "us-east-2": {
+                "AMIID": "ami-956e52f0"
             },
             "us-west-1": {
-                "AMIID": "ami-bfe095df"
+                "AMIID": "ami-6b81980b"
             },
-            "ap-southeast-1": {
-                "AMIID": "ami-c78f43a4"
+            "us-west-2": {
+                "AMIID": "ami-d2f489aa"
+            },
+            "ca-central-1": {
+                "AMIID": "ami-da6cecbe"
             },
             "eu-central-1": {
-                "AMIID": "ami-e1e6f88d"
+                "AMIID": "ami-10e6c8fb"
+            },
+            "eu-west-1": {
+                "AMIID": "ami-c91624b0"
+            },
+            "eu-west-2": {
+                "AMIID": "ami-3622cf51"
+            },
+            "eu-west-3": {
+                "AMIID": "ami-ca75c4b7"
+            },
+            "ap-northeast-1": {
+                "AMIID": "ami-f3f8098c"
+            },
+            "ap-northeast-2": {
+                "AMIID": "ami-7c69c112"
             }
         }
     },
