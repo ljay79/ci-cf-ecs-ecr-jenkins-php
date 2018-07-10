@@ -43,7 +43,7 @@
         },
         "ECSCFNURL": {
             "Type": "String",
-            "Default": "NOURL",
+            "Default": "https://raw.githubusercontent.com/ljay79/ci-cf-ecs-ecr-jenkins-php/master/ecs-pipeline.json",
             "Description": "The URL for this CloudFormation Template"
         },
         "ImageTag": {
