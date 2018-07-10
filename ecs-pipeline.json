@@ -43,8 +43,8 @@
         },
         "ECSCFNURL": {
             "Type": "String",
-            "Default": "https://raw.githubusercontent.com/ljay79/ci-cf-ecs-ecr-jenkins-php/master/ecs-pipeline.json",
-            "Description": "The URL for this CloudFormation Template"
+            "Default": "https://s3.eu-central-1.amazonaws.com/ljay79/github/ci-cf-ecs-ecr-jenkins-php/ecs-pipeline.json",
+            "Description": "The URL for this CloudFormation Template. Only S3 supported at this time. Make sure you have updated content in this bucket location. Use your own bucket if you which and make that file publicly accessible (readonly)"
         },
         "ImageTag": {
             "Type": "String",
@@ -349,7 +349,7 @@
                 "VpcId": {
                     "Ref": "MyVPC"
                 },
-				"MapPublicIpOnLaunch": "true",
+                "MapPublicIpOnLaunch": "true",
                 "CidrBlock": {
                     "Fn::Join": [
                         "",
@@ -732,10 +732,10 @@
                                         "Ref": "AWS::AccountId"
                                     },
                                     ".dkr.ecr.",
-									{
-										"Ref": "AWS::Region"
-									},
-									".amazonaws.com/",
+                                    {
+                                        "Ref": "AWS::Region"
+                                    },
+                                    ".amazonaws.com/",
                                     {
                                         "Ref": "ECSRepoName"
                                     },
@@ -1376,7 +1376,7 @@
                                     "Ref": "ECSRepoName"
                                 },
                                 "/g\" /tmp/config-template.xml\n",
-								"/bin/sed -i \"s#MY_URL#",
+                                "/bin/sed -i \"s#MY_URL#",
                                 {
                                     "Ref": "ECSCFNURL"
                                 },
