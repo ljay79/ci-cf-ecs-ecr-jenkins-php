@@ -731,7 +731,11 @@
                                     {
                                         "Ref": "AWS::AccountId"
                                     },
-                                    ".dkr.ecr.us-east-1.amazonaws.com/",
+                                    ".dkr.ecr.",
+									{
+										"Ref": "AWS::Region"
+									},
+									".amazonaws.com/",
                                     {
                                         "Ref": "ECSRepoName"
                                     },
