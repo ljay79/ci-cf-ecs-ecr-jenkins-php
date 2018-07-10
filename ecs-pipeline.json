@@ -1355,7 +1355,7 @@
                                 "echo \"Waiting 30 seconds for Jenkins to start.....\"\n",
                                 "sleep 30\n",
                                 "# configure our job\n",
-                                "wget -P /tmp https://s3.amazonaws.com/stelligent-training-public/public/jenkins/config-template.xml\n",
+                                "wget -P /tmp https://raw.githubusercontent.com/ljay79/ci-cf-ecs-ecr-jenkins-php/master/Jenkins_Helper_Scripts/config-template.xml\n",
                                 "/bin/sed -i \"s/APPNAME/",
                                 {
                                     "Ref": "AWS::StackName"
